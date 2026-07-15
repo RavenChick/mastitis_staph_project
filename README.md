@@ -10,7 +10,7 @@ The pipeline transforms raw metadata and annotations (BV-BRC) into a structured 
 *  **Visualization:** Construction of hierarchical heatmaps to identify hidden pathogen subpopulations.
 
 ## 📂 Project Structure
-Plaintext
+```text
 ├── data/               # Raw and processed data (metadata, references)
 ├── notebooks/          # Jupyter notebooks for exploratory data analysis
 ├── results/            # Final visualizations and tables
@@ -20,6 +20,7 @@ Plaintext
 │   └── build_heatmap.R       # Step 3: Statistical visualization
 ├── obsidian_vault/     # Generated strain cards
 └── README.md
+```
 ## 🚀 Quickstart
 1. Requirements and Installation
 The pipeline requires Python 3.8+ and R (for generating final plots).
