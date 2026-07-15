@@ -1,0 +1,24 @@
+# Системные файлы и метаданные
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+__pycache__/
+
+# Syncthing (технические папки синхронизации)
+.stfolder/
+
+# Биологические данные (тяжелые файлы, исходники)
+data/raw/
+
+# Результаты (генерируемые файлы)
+results/plots/
+results/tables/
+
+# Личная база знаний
+obsidian_vault/
+
+# Окружения
+envs/
+.venv/
+.conda/
+venv/
